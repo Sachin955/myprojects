@@ -1,0 +1,38 @@
+.accordian{
+     outline: 1px solid red;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     margin: 10px;
+ }
+
+ul.wrapper {
+     display: inline-flex;
+     padding: 10px;
+     width: 500px;
+     background-color: gray; 
+     
+}
+
+ul li.movie-list {
+     list-style: none;
+     width: 400px;
+     background-color: red; 
+     outline: 1px solid black;
+     
+}
+
+
+.navigation-btn {
+     display: flex;
+     justify-content: center;
+}
+.arrow {
+     background-color: gray;
+     color: #ffffff;
+     margin:20px;
+     cursor: pointer;
+     border: none;
+}
+
+
